@@ -3,7 +3,7 @@
 
 int main()
 {
-    // The Line below must *NOT* be changed or test will fail!
+    //  The Line below must *NOT* be changed or test will fail!
     srand(1);
 
    
