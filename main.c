@@ -8,12 +8,12 @@ int main()
 
     // Your code goes here
 
-    /*  /. Use srand(1)
-        /. Store 100 dice throws in an array
-        3. Calculate number occurences for each value
-        /. Print number of occirences for each value
-        /. Calculate/print the sum of all throws
-        /. Calculate/print the average value as a float with one decimal
+    /*  1. Use srand(1)
+        2. Store 100 dice throws in an array
+        3. Calculate number of occurences for each value
+        4. Print number of occurences for each value
+        5. Calculate and print the sum of all throws
+        6. Calculate and print the average value as a float with one decimal
     */
 
     int dice_rolls[100];
@@ -48,17 +48,3 @@ int main()
 
     return 0;
 }
-
-/*  Note 1:
-    - Fix the outputs apparently being incorrect.
-    Note 2:
-    - dice_values[] were not assigned 0. Fixed.
-    - Dice rolls are all within 1-6.
-    - Sum appears to be correct.
-    - Average is correct.
-    - Number of 6's rolled is correct.
-    - ???
-    Note 3:
-    - Does my newer compiler produce different random numbers?
-    - Number of 2's rolled is correct (9).
-*/
