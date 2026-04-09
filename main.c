@@ -24,14 +24,8 @@ int main()
     for (int i = 0; i < 100; i++)
     {
         dice_rolls[i] = (rand() % 6) + 1;
-        // printf("dice_rolls[%d]: %d\n", i, dice_rolls[i]);
-        
         dice_values[dice_rolls[i] - 1]++;
-        // printf("dive_values[%d]: %d\n", 
-        //     dice_rolls[i] - 1, dice_values[dice_rolls[i] - 1]);
-
         sum += dice_rolls[i];
-        // printf("sum: %d\n", sum);
     }
     
     // Print the number of rolls for each value
